@@ -6,15 +6,15 @@ Python library for simply text cryptography.
 Authors
 -------
  ------------- ---------------------------- ---------------------
-  Ondrej Sika   http://ondrejsika.com]   dev@ondrejsika.com 
+  Ondrej Sika   <http://ondrejsika.com>   dev@ondrejsika.com 
  ------------- ---------------------------- ---------------------
 
 Source
 ------
  ------------------------ -----------------------------------------------------
-  Documentation            http://ondrejsika.com/docs/python-crypto
-  Python Package Index     http://pypi.python.org/pypi/crypto
-  Bitbucket                https://bitbucket.org/sikaondrej/python-crypto
+  Documentation            <http://ondrejsika.com/docs/python-crypto>
+  Python Package Index     <http://pypi.python.org/pypi/crypto>
+  Bitbucket                <https://bitbucket.org/sikaondrej/python-crypto>
  ------------------------ -----------------------------------------------------
 
 Instalation
