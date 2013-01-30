@@ -47,9 +47,3 @@ Functions
 
 ### Decrypt string
     message = crypto.encrypt(encrypted, private)
-
--------------------------------------------------
-| COL HEADING       |   COL HEADING             |
--------------------------------------------------
-| Row text          | Row text                  |
--------------------------------------------------
