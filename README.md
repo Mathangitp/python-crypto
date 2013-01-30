@@ -6,16 +6,16 @@ Python library for simply text cryptography.
 Authors
 -------
  ------------- ------------------------------------------------ -------------------- 
-| Ondrej Sika | [http://ondrejsika.com](http://ondrejsika.com) | dev@ondrejsika.com |
+ Ondrej Sika   [http://ondrejsika.com](http://ondrejsika.com)   dev@ondrejsika.com 
  ------------- ------------------------------------------------ -------------------- 
 
 Source
 ------
- ------------------------ ------------------------------------------------
-| Documentation          | http://ondrejsika.com/docs/python-crypto       |
-| Python Package Index   | http://pypi.python.org/pypi/crypto             |
-| Bitbucket              | https://bitbucket.org/sikaondrej/python-crypto |
- ------------------------ ------------------------------------------------
+ ------------------------ ----------------------------------------------- 
+  Documentation            http://ondrejsika.com/docs/python-crypto        
+  Python Package Index     http://pypi.python.org/pypi/crypto              
+  Bitbucket                https://bitbucket.org/sikaondrej/python-crypto  
+ ------------------------ ----------------------------------------------- 
 
 Instalation
 -----------
@@ -39,9 +39,9 @@ Functions
     public = crypto.load_key(public_string)  # load key from string
     private = crypto.load_key_file("id_rsa.pub")  # load key from string
 
-Encrypt string
+### Encrypt string
     message = "My secret message"
     encrypted = crypto.encrypt(message, public)
 
-Decrypt string
+### Decrypt string
     message = crypto.encrypt(encrypted, private)
