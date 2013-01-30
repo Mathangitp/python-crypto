@@ -48,3 +48,6 @@ Functions
 
 
 [1]: http://ondrejsika.com
+[2]: http://ondrejsika.com/docs/python-crypto
+[3]: http://pypi.python.org/pypi/crypto
+[4]: https://bitbucket.org/sikaondrej/python-crypto
