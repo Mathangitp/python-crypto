@@ -6,15 +6,15 @@ Python library for simply text cryptography.
 Authors
 -------
  ------------- ---------------------------- ---------------------
-  Ondrej Sika   [1][http://ondrejsika.com]   dev@ondrejsika.com 
+  Ondrej Sika   http://ondrejsika.com]   dev@ondrejsika.com 
  ------------- ---------------------------- ---------------------
 
 Source
 ------
  ------------------------ -----------------------------------------------------
-  Documentation            [2][http://ondrejsika.com/docs/python-crypto]
-  Python Package Index     [3][http://pypi.python.org/pypi/crypto]
-  Bitbucket                [4][https://bitbucket.org/sikaondrej/python-crypto]
+  Documentation            http://ondrejsika.com/docs/python-crypto
+  Python Package Index     http://pypi.python.org/pypi/crypto
+  Bitbucket                https://bitbucket.org/sikaondrej/python-crypto
  ------------------------ -----------------------------------------------------
 
 Instalation
@@ -45,9 +45,3 @@ Functions
 
 ### Decrypt string
     message = crypto.encrypt(encrypted, private)
-
-
-[1]: http://ondrejsika.com
-[2]: http://ondrejsika.com/docs/python-crypto
-[3]: http://pypi.python.org/pypi/crypto
-[4]: https://bitbucket.org/sikaondrej/python-crypto
