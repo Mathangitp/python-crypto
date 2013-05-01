@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "crypto",
-    version = "1.0.0",
+    version = "1.1.0",
     url = 'http://ondrejsika.com/docs/python-crypto',
     download_url = 'https://bitbucket.org/sikaondrej/python-crypto',
     license = 'GNU LGPL v.3',
