@@ -1,23 +1,20 @@
-crypto documentation
-====================
+crypto
+======
 
 Python library for simply text cryptography.
 
 Authors
 -------
-
- ------------- ---------------------------- ---------------------
-  Ondrej Sika   <http://ondrejsika.com>   dev@ondrejsika.com 
- ------------- ---------------------------- ---------------------
+*  Ondrej Sika, <http://ondrejsika.com>, dev@ondrejsika.com
 
 Source
 ------
+* Documentation: <http://ondrejsika.com/docs/python-crypto>
+* Python Package Index: <http://pypi.python.org/pypi/crypto>
+* GitHub: <https://github.com/sikaondrej/python-crypto>
 
- ------------------------ -----------------------------------------------------
-  Documentation            <http://ondrejsika.com/docs/python-crypto>
-  Python Package Index     <http://pypi.python.org/pypi/crypto>
-  Bitbucket                <https://bitbucket.org/sikaondrej/python-crypto>
- ------------------------ -----------------------------------------------------
+Documentation
+=============
 
 Instalation
 -----------
@@ -41,9 +38,16 @@ Functions
     public = crypto.load_key(public_string)  # load key from string
     private = crypto.load_key_file("id_rsa.pub")  # load key from string
 
-### Encrypt string
+### Encrypt to bin
     message = "My secret message"
     encrypted = crypto.encrypt(message, public)
 
-### Decrypt string
-    message = crypto.encrypt(encrypted, private)
+### Decrypt from bin
+    message = crypto.decrypt(encrypted, private)
+
+### Encrypt to string
+    message = "My secret message"
+    encrypted = crypto.encrypt_str(message, public)
+
+### Decrypt from string
+    message = crypto.decrypt_str(encrypted, private)

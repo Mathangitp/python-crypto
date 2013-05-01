@@ -7,7 +7,7 @@ setup(
     name = "crypto",
     version = "1.1.0",
     url = 'http://ondrejsika.com/docs/python-crypto',
-    download_url = 'https://bitbucket.org/sikaondrej/python-crypto',
+    download_url = 'https://github.com/sikaondrej/python-crypto',
     license = 'GNU LGPL v.3',
     description = "Simply tool for cryptography",
     author = 'Ondrej Sika',
